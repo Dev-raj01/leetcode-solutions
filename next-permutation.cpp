@@ -1,4 +1,5 @@
 //https://leetcode.com/problems/next-permutation/
+//can also use nect_permutation(n.begin(),n.end()) function
 class Solution {
 public:
     void nextPermutation(vector<int>& nums) {
