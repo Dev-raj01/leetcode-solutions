@@ -18,3 +18,19 @@ public:
 
     }
 };
+
+//better 
+
+class Solution {
+public:
+    int missingNumber(vector<int>& nums) {
+       int n=nums.size();
+       int total,sum;
+       sum=total=0;
+        for(int i=0;i<=n;i++)
+            total+=i;
+        for(int n:nums)
+            sum+=n;
+    return (total-sum);
+    }
+};
