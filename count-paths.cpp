@@ -3,7 +3,7 @@ class Solution {
 public:
     int uniquePaths(int m, int n) {
        vector<vector<int>> memo(m,vector<int>(n,-1));
-        return dfs(0,0,m,n)
+        return dfs(0,0,m,n);
     }
     int dfs(int i,int j,int m ,int n){
         if(i==(m-1) && j==(n-1));
