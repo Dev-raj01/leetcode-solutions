@@ -9,7 +9,7 @@ public:
             sum+=nums[i];
             arr[i]=sum;
         }
-        unordered_map<int,int> mp;
+        unordered_map<int,int>mp;
         sum=0;
         for(int i=0;i<nums.size();i++){
             if(arr[i]==k)sum++;
