@@ -1,6 +1,6 @@
 //https://leetcode.com/problems/top-k-frequent-elements/
 
-//2 more approach using heap and bucket sort do check while revisiing 
+//2 more approach using heap and bucket sort do check while revisiing one more and the best qway is by prioruty queue
 
 class Solution {
 public:
